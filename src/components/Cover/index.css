@@ -1,0 +1,30 @@
+.Cover {
+    font-size: 1em;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: .4em;
+}
+
+.Cover .Label {
+    align-self: flex-start;
+    font-size: .85em;
+}
+
+.Cover .Label span {
+    font-size: .7em;
+    font-weight: bold;
+    opacity: .6;
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.Cover .Picture {
+    width: 100%;
+    max-width: 16em;
+    aspect-ratio: 2 / 3;
+    border-radius: .4em;
+}
+
+.Cover .Button {
+    align-self: flex-end;
+}

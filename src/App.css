@@ -1,0 +1,24 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --background-color: 30 30 30;
+  --color: 240 240 240;
+  --accent-color: 0 52 89;
+
+  color-scheme: light dark;
+  background-color: rgb(var(--background-color));
+  color: rgb(var(--color));
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      --background-color: 240 240 240;
+      --color: 30 30 30;
+  }
+}

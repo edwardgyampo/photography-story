@@ -1,0 +1,107 @@
+.Story {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 1.6em;
+    padding: .6em;
+    padding-bottom: 2em;
+}
+
+.Story:not(:first-child) {
+    padding-top: 4em;
+}
+
+.Story__title,
+.Story__caption {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Story__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2em;
+    column-gap: 1em;
+}
+
+section#narration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Story__caption {
+    margin-bottom: .8em;
+}
+
+.Story__description {
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 2em;
+    max-width: 72ch;
+}
+
+.Story__contributors {
+    display: flex;
+    flex-direction: column;
+}
+
+.Story__contributors .Avatars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.Story__description,
+.Story__contributors .Label,
+.Review__text {
+    opacity: .9;
+}
+
+section#reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 2em;
+}
+
+.Story__reviews {
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1.5em;
+}
+
+.Preview {
+    max-width: 58em;
+}
+
+.Review {
+    max-width: 22em;
+}
+
+.Story footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 37.5em) {
+    .Story__reviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 56.25em) {
+    .Story__content {
+        display: flex;
+        flex-direction: row;
+    }
+}

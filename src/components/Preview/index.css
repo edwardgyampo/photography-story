@@ -1,0 +1,44 @@
+.Preview {
+    width: 100%;
+    display: inline grid;
+
+    /* 4 columns = 4 pictures per row */
+    grid-template-columns: repeat(4, 21%);
+    
+    column-gap: 4%;
+    row-gap: 18%;
+    justify-content: center;
+    justify-items: stretch;
+    padding-top: 21%;
+
+    /* 21% = picture width */
+    padding-bottom: 16%;
+}
+
+.Preview>:nth-child(4n + 1) {
+    grid-column-start: 1;
+
+    /* offset picture vertically */
+    margin-top: -60%;
+}
+
+.Preview>:nth-child(4n + 2) {
+    grid-column-start: 2;
+}
+
+.Preview>:nth-child(4n + 3) {
+    grid-column-start: 3;
+
+    /* -100% = -1 x (column width or picture width) */
+    margin-top: -100%;
+}
+
+.Preview>:nth-child(4n + 4) {
+    grid-column-start: 4;
+    margin-top: -30%;
+}
+
+.Preview>.Picture {
+    border-radius: 8px;
+    max-width: 100%;
+}

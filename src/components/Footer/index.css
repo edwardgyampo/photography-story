@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    margin-bottom: 1em;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer span {
+    opacity: .7;
+}
+
+.footer a {
+    text-decoration: none;
+}

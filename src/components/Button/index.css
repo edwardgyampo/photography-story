@@ -1,0 +1,17 @@
+.Button {
+    outline: none;
+    display: inline-flex;
+    padding: .6em;
+    font-size: .9em;
+    text-transform: capitalize;
+    border-radius: .4em;
+    cursor: pointer;
+    background-color: rgb(var(--color) / .1);
+    color: inherit;
+    border: 1px solid rgb(var(--color) / .6);
+}
+
+.Button:hover {
+    background-color: rgb(var(--color));
+    color: rgb(var(--background-color));
+}

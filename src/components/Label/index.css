@@ -1,0 +1,5 @@
+.Label {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .2rem;
+}

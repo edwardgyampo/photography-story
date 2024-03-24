@@ -1,0 +1,61 @@
+.Review {
+    display: inline grid;
+    justify-content: center;
+    justify-items: start;
+    padding: 1em;
+    gap: 1em;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    border-radius: .4em;
+    background-color: rgb(var(--color) / .05);
+}
+
+.Review__topSection {
+    display: inline flex;
+    flex-wrap: wrap;
+}
+
+.Review__bottomSection {
+    display: flex;
+    overflow: hidden;
+}
+
+.Review .Avatar {
+    width: 6em;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.Review__tags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: .2em;
+}
+
+.Review__location,
+.Review__work,
+.Review__brand {
+    opacity: .7;
+}
+
+.Review__brand,
+.Review__location,
+.Review__name,
+.Review__work {
+    margin-left: .6em;
+}
+
+.Review__location,
+.Review__brand,
+.Review__work {
+    font-size: .9em;
+    padding-left: 1em;
+}
+
+.Review__location {
+    padding-left: 1em;
+}
+
+.Review__brand {
+    padding-left: 2em;
+}

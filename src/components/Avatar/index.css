@@ -1,0 +1,13 @@
+.Avatar {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .4em;
+}
+
+.Avatar .Picture {
+    width: 100%;
+    max-width: 6em;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
