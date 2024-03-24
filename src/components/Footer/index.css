@@ -13,5 +13,6 @@
 }
 
 .footer a {
-    text-decoration: none;
+    opacity: .8;
+    color:  rgb(var(--color));
 }

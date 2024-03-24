@@ -10,7 +10,7 @@ export const Footer = () => {
         <span>&nbsp;created by&nbsp;</span>
 
         <a target="_blank" href="https://www.linkedin.com/in/edward-gyampo-b3a68318a">
-            edwardgyampo
+            Edward Gyampo
         </a>
     </section>
 }
