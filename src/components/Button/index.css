@@ -7,7 +7,7 @@
     border-radius: .4em;
     cursor: pointer;
     background-color: rgb(var(--color) / .1);
-    color: inherit;
+    color:  rgb(var(--color));
     border: 1px solid rgb(var(--color) / .6);
 }
 
