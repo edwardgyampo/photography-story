@@ -9,9 +9,10 @@
     row-gap: 18%;
     justify-content: center;
     justify-items: stretch;
+    
+    /* 21% = picture width */
     padding-top: 21%;
 
-    /* 21% = picture width */
     padding-bottom: 16%;
 }
 
